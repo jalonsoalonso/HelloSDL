@@ -43,7 +43,7 @@ int main(int argc, char* args[])
 	SDL_Rect rc = { 0, cy, 10, 10 };	//x, y, w, h
 	float alpha;
 	while (n < 360)
-	{
+	{	
 		alpha = n * M_PI / 180.0f;
 		rc.x += 17;
 
