@@ -46,6 +46,7 @@ int main(int argc, char* args[])
 	{
 		alpha = n * M_PI / 180.0f;
 		rc.x += 17;
+
 		SDL_SetRenderDrawColor(Renderer, n*0.7f, 192, 0, 255);
 		SDL_RenderFillRect(Renderer, &rc);
 
@@ -61,6 +62,7 @@ int main(int argc, char* args[])
 		n += 10;
 	}
 	SDL_Delay(1000);
+
 	//Clean up all SDL initialized subsystems
 	SDL_Quit();
 
