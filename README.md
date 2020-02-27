@@ -1,6 +1,5 @@
 # HelloSDL
-1. First steps with SDL: create a window, rendering context and drawing some geometry.
-
+First steps with SDL: create a window, rendering context and drawing some geometry.
 
 Functions, structures and constants used:
 - Functions
